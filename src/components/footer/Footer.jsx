@@ -15,7 +15,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="bg-[#0A142F] w-[100vw] text-white overflow-x-hidden flex mx-auto flex-col justify-center items-center p-16 max-sm:mt-8 max-sm:p-4">
+    <footer className="bg-[#0A142F] text-white overflow-x-hidden flex mx-auto flex-col justify-center items-center p-16 max-sm:mt-8 max-sm:p-4">
       <div className="flex flex-col gap-8 justify-center items-center">
         <NavLink to="/">
           <div className="flex justify-center items-center gap-2">
