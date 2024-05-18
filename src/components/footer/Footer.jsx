@@ -16,25 +16,25 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#0A142F] text-white overflow-x-hidden flex mx-auto flex-col justify-center items-center p-16 max-sm:mt-8 max-sm:p-4">
-      <div className="flex flex-col gap-8 justify-center items-center">
+      <div className="flex flex-col gap-6 justify-center items-center">
         <NavLink to="/">
           <div className="flex justify-center items-center gap-2">
             <img className="w-16" src={NavLogo} alt="" />
-            <p className="font-medium text-[20px] text-white">Kala Towels</p>
+            <p className="font-medium text-2xl text-white">Kala Towels</p>
           </div>
         </NavLink>
         <div className="flex justify-center items-center xl:gap-16 lg:gap-16 sm:gap-4 max-sm:flex-col max-sm:gap-4">
           <NavLink to="/">
-            <p className="text-base text-center">Home</p>
+            <p className="text-sm text-center">Home</p>
           </NavLink>
           <NavLink to="/products">
-            <p className="text-base text-center">Products</p>
+            <p className="text-sm text-center">Products</p>
           </NavLink>
-          <NavLink to="/about">
-            <p className="text-base text-center">About</p>
+          <NavLink to="/about-us">
+            <p className="text-sm text-center">About</p>
           </NavLink>
           <NavLink to="/contact">
-            <p className="text-base text-center">Contact</p>
+            <p className="text-sm text-center">Contact</p>
           </NavLink>
         </div>
         <div className="flex items-center justify-center gap-4">
@@ -54,8 +54,8 @@ const Footer = () => {
             <MailOutlineIcon />
           </a>
         </div>
-        <p className="text-[14px] text-slate-200">
-          © {currentYear} Naval Handloom. All rights reserved.
+        <p className="text-[14px] text-slate-400">
+          © Copyright {currentYear} - Kala Towels
         </p>
       </div>
     </footer>

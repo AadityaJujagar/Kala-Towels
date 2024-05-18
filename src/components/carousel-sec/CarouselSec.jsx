@@ -6,15 +6,15 @@ export default function CarouselSec() {
     <div className="carousel-container">
       <Carousel autoPlay showThumbs={true} infiniteLoop useKeyboardArrows>
         <img
-          src="https://via.placeholder.com/600x250.png?text=Slide+1"
+          src="https://via.placeholder.com/600x300.png?text=Slide+1"
           alt="Slide 1"
         />
         <img
-          src="https://via.placeholder.com/600x250.png?text=Slide+2"
+          src="https://via.placeholder.com/600x300.png?text=Slide+2"
           alt="Slide 2"
         />
         <img
-          src="https://via.placeholder.com/600x250.png?text=Slide+3"
+          src="https://via.placeholder.com/600x300.png?text=Slide+3"
           alt="Slide 3"
         />
       </Carousel>
