@@ -15,15 +15,15 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="bg-[#0A142F] text-white overflow-x-hidden flex mx-auto flex-col justify-center items-center p-16 max-sm:mt-8 max-sm:p-4">
-      <div className="flex flex-col gap-6 justify-center items-center">
+    <footer className="bg-[#0A142F] text-white overflow-x-hidden flex mx-auto flex-col justify-center items-center p-8 max-sm:mt-8 max-sm:p-4">
+      <div className="flex flex-col gap-4 justify-center items-center">
         <NavLink to="/">
           <div className="flex justify-center items-center gap-2">
             <img className="w-16" src={NavLogo} alt="" />
             <p className="font-medium text-2xl text-white">Kala Towels</p>
           </div>
         </NavLink>
-        <div className="flex justify-center items-center xl:gap-16 lg:gap-16 sm:gap-4 max-sm:flex-col max-sm:gap-4">
+        <div className="flex justify-center p-4 items-center xl:gap-20 lg:gap-16 sm:gap-4 max-sm:flex-col max-sm:gap-4">
           <NavLink to="/">
             <p className="text-sm text-center">Home</p>
           </NavLink>
@@ -37,7 +37,7 @@ const Footer = () => {
             <p className="text-sm text-center">Contact</p>
           </NavLink>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-10 p-4">
           <a href="#">
             <FacebookIcon />
           </a>
@@ -54,7 +54,7 @@ const Footer = () => {
             <MailOutlineIcon />
           </a>
         </div>
-        <p className="text-[14px] text-slate-400">
+        <p className="text-[14px] text-slate-600">
           © Copyright {currentYear} - Kala Towels
         </p>
       </div>
