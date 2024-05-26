@@ -89,7 +89,7 @@ const Navbar = () => {
       </nav>
       <div className="border-b-[1px] border-gray-200"></div>
       {!menu && (
-        <div className="border-t border-opacity-10 flex flex-col justify-center items-center xl:hidden lg:hidden md:hidden p-4 gap-4">
+        <div className="border-b border-opacity-10 flex flex-col justify-center items-center xl:hidden lg:hidden md:hidden p-4 gap-4">
           <NavLink to="/">
             <p onClick={clickMenu}>Home</p>
           </NavLink>

@@ -27,11 +27,11 @@ const Footer = () => {
           <NavLink to="/">
             <p className="text-sm text-center">Home</p>
           </NavLink>
+          <NavLink to="/about-us">
+            <p className="text-sm text-center">About Us</p>
+          </NavLink>
           <NavLink to="/products">
             <p className="text-sm text-center">Products</p>
-          </NavLink>
-          <NavLink to="/about-us">
-            <p className="text-sm text-center">About</p>
           </NavLink>
           <NavLink to="/contact">
             <p className="text-sm text-center">Contact</p>
