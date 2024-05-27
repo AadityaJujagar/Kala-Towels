@@ -6,8 +6,10 @@ const center = {
 };
 
 const Map = () => {
+  const api_key = import.meta.env.REACT_APP_API_KEY;
+  console.log(api_key);
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBnQfeS158hJqjXOO7rNhDAnHC8zL7TUgI">
+    <LoadScript googleMapsApiKey={api_key}>
       <GoogleMap
         mapContainerClassName="w-[400px] h-[250px]"
         center={center}

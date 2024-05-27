@@ -3,9 +3,9 @@ import Map from "../../components/map/Map";
 const Contact = () => {
   return (
     <div className="xl:w-[1024px] lg:w-[1024px] mx-auto overflow-x-hidden gap-4 flex xl:flex-row lg:flex-row flex-col justify-between items-center">
-      <div className="flex flex-col items-center justify-center xl:flex-col lg:flex-col gap-4">
+      <div className="flex flex-col items-center justify-center xl:flex-col lg:flex-col gap-2">
         <Map />
-        <div className="flex flex-col">
+        <div className="flex flex-col p-4">
           <p className="text-xl font-bold">Kala Towels,</p>
           <p className="text-sm font-thin">158, Nilam Nagar,</p>
           <p className="text-sm font-extralight">Part-2, M.I.D.C.,</p>
@@ -21,9 +21,9 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center xl:flex-col lg:flex-col gap-4">
+      <div className="flex flex-col items-center justify-center xl:flex-col lg:flex-col gap-2">
         <Map />
-        <div className="flex flex-col">
+        <div className="flex flex-col p-4">
           <p className="text-xl font-bold">Kala Towels,</p>
           <p className="text-sm font-thin">158, Nilam Nagar,</p>
           <p className="text-sm font-extralight">Part-2, M.I.D.C.,</p>

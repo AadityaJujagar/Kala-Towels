@@ -91,16 +91,48 @@ const Navbar = () => {
       {!menu && (
         <div className="border-b border-opacity-10 flex flex-col justify-center items-center xl:hidden lg:hidden md:hidden p-4 gap-4">
           <NavLink to="/">
-            <p onClick={clickMenu}>Home</p>
+            <p
+              onClick={(() => clickHandler("home"), clickMenu)}
+              className={
+                "text-base text-center " +
+                (pageIdentifier === "home" ? "font-bold" : "")
+              }
+            >
+              Home
+            </p>
           </NavLink>
           <NavLink to="/about-us">
-            <p onClick={clickMenu}>About Us</p>
+            <p
+              onClick={(() => clickHandler("about-us"), clickMenu)}
+              className={
+                "text-base text-center " +
+                (pageIdentifier === "about-us" ? "font-bold" : "")
+              }
+            >
+              About Us
+            </p>
           </NavLink>
           <NavLink to="/products">
-            <p onClick={clickMenu}>Products</p>
+            <p
+              onClick={(() => clickHandler("products"), clickMenu)}
+              className={
+                "text-base text-center " +
+                (pageIdentifier === "products" ? "font-bold" : "")
+              }
+            >
+              Products
+            </p>
           </NavLink>
           <NavLink to="/contact">
-            <p onClick={clickMenu}>Contact</p>
+            <p
+              onClick={(() => clickHandler("contact"), clickMenu)}
+              className={
+                "text-base text-center " +
+                (pageIdentifier === "contact" ? "font-bold" : "")
+              }
+            >
+              Contact
+            </p>
           </NavLink>
         </div>
       )}
